@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bg-color: red;
+}
+body{
+  background: var(--bg-color);
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 50px;
+}
+.showColor{
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  background: black;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 50px;
+}
+.color{
+  color: var(--bg-color);
+  cursor: pointer;
+}
+.changeColor{
+  border: 5px solid black;
+  width: fit-content;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  font-size: 32px;
+  margin: 0 auto;
+  background: var(--bg-color);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.changeColor:hover{
+  background: black;
+  border: black;
+  color: var(--bg-color);
+}
+.rgbhex{
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.hide{
+  display: none;
+}

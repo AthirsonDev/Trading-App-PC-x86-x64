@@ -16,7 +16,7 @@ function randomColorhex(){
     return color; // retorna a cor gerada
   }
 button.addEventListener('click', ()=>{
-  let color = randomColorhex();
+  let color = randomColorrgb();
   document.documentElement.style.setProperty('--bg-color', color);
   textColor.textContent = color
 })

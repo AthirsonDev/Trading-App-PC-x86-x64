@@ -1,9 +1,9 @@
 const button = document.querySelector('.changeColor')
 const textColor = document.querySelector('.color')
 function randomColorrgb(){
-    let r = Math.floor(Math.random()* 256)
-    let g = Math.floor(Math.random()* 256)
-    let b = Math.floor(Math.random()* 256)
+    let r = Math.floor(Math.random()* 257)
+    let g = Math.floor(Math.random()* 257)
+    let b = Math.floor(Math.random()* 257)
     let color = `rgb(${r},${g},${b})`
     return color
 }

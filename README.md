@@ -15,5 +15,5 @@
 
 # Showcase
 
-[Showcase]()
+[Showcase](https://github.com/AthirsonDev/Trading-App-PC-x86-x64/blob/GitHub/JS/showcase.gif?raw=true)
 
